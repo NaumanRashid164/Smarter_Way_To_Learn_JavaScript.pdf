@@ -1,0 +1,22 @@
+step 1) Open containing folder that you want to upload on reposite 
+step 2) press ALT+D and type cmd
+step 3)type "git init"
+step 4)type "git status" and you will see all files or folder (files colour will be red that indicate files are not in staging area)
+step 5) type "git add <file name> "
+		OR
+For all file "git add ."
+step 6) type git status (All files will be shown in green colour..That's mean files are added in Staging area)
+Step 7) type  git commit -m <message about files / folder>
+step 8) type git remote add <shorcute word you want to type instead of complete directory path given That pick from CLONE OR DOWNLOAD BUTTON>
+and URL from CLONE OR DOWNLOAD BUTTON
+
+
+Example: git remote add cat https://github.com/NaumanRashid164/Smarter_Way_To_Learn_JavaScript.pdf.git
+
+
+step 9) type "git remote"  to check your shortecut name about clone link is defined successfully
+
+			FOR FIRST TIME REPOSITORY
+step 10) git pull --rebase origin master  (Origin means CLONE OR DOWNLOAD link / shortecut name that you defined before)
+			FOR ALL
+step 11) git push origin master  (Origin means CLONE OR DOWNLOAD link / shortecut name that you defined before)
